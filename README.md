@@ -26,5 +26,15 @@ Run this command in the application directory to run the test suite
 
 That's it! Now go build something cool.
 
+Start server
 
     php -S localhost:8000 -t public
+
+Eloquent ORM
+	composer require illuminate/database
+
+Instalando Phinx	
+composer require robmorgan/phinx
+
+
+	
