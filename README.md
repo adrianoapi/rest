@@ -31,10 +31,10 @@ Start server
     php -S localhost:8000 -t public
 
 Eloquent ORM
-	composer require illuminate/database
 
-Instalando Phinx	
-composer require robmorgan/phinx
+    composer require illuminate/database
 
+Instalando Phinx
 
+    composer require robmorgan/phinx
 	
