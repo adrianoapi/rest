@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c92e478f7850ec314d77f70a581f3f2",
+    "content-hash": "c25fc48fcf87a355f17afbb4900f626a",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1387,6 +1387,60 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2018-02-16T09:50:28+00:00"
+        },
+        {
+            "name": "tuupola/slim-jwt-auth",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tuupola/slim-jwt-auth.git",
+                "reference": "1f9fb673e4f5bb9ca4104e328aabfc2e4af38c32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tuupola/slim-jwt-auth/zipball/1f9fb673e4f5bb9ca4104e328aabfc2e4af38c32",
+                "reference": "1f9fb673e4f5bb9ca4104e328aabfc2e4af38c32",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^3.0 || ^4.0 || ^5.0",
+                "php": "^5.5 || ^7.0",
+                "psr/http-message": "^1.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6",
+                "squizlabs/php_codesniffer": "^2.3",
+                "zendframework/zend-diactoros": "^1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\Middleware\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mika Tuupola",
+                    "email": "tuupola@appelsiini.net",
+                    "homepage": "http://www.appelsiini.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PSR-7 JWT Authentication Middleware",
+            "homepage": "https://github.com/tuupola/slim-jwt-auth",
+            "keywords": [
+                "auth",
+                "json",
+                "jwt",
+                "middleware",
+                "psr-7"
+            ],
+            "time": "2017-07-12T09:57:35+00:00"
         }
     ],
     "packages-dev": [
