@@ -27,5 +27,7 @@ return [
             'prefix' => ''
         ],
         
+        'secretKey' => 'pLItMLHCWfOxtC2xKdtxhN'
+        
     ],
 ];
