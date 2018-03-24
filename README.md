@@ -37,4 +37,7 @@ Eloquent ORM
 Instalando Phinx
 
     composer require robmorgan/phinx
-	
+
+Instalando php-jwt
+
+	require firebase/php-jwt
