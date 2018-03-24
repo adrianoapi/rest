@@ -40,4 +40,8 @@ Instalando Phinx
 
 Instalando php-jwt
 
-	require firebase/php-jwt
+	composer require firebase/php-jwt
+	
+instalando slim-jwt-auth
+
+	composer require tuupola/slim-jwt-auth
