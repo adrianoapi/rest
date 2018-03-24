@@ -14,3 +14,14 @@ $app->post('/api/v1/users', function (Request $request, Response $response, arra
     $user = User::create($data);
     return $response->withJson($user);
 });
+
+$app->get('/api/v1/users/{id}', function (Request $request, Response $response, array $args) {
+    $user = User::findOrFail($args['id']);
+    return $response->withJson($user);
+});
+
+$app->put('/api/v1/users/{id}', function (Request $request, Response $response, array $args) {
+    $user = User::findOrFail($args['id']);
+    $user->update($request->getParsedBody());
+    return $response->withJson($user);
+});
